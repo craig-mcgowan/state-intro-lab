@@ -1,3 +1,7 @@
+:root {
+  --focus-green: rgb(109, 219, 94)
+}
+
 body {
   background: #efefef;
   margin: 0;
@@ -41,4 +45,17 @@ p {
   display: block;
   cursor: pointer;
   object-fit:cover;
+  /* border: solid;
+  border-color: white */
+}
+
+.focused {
+  /* border: solid;
+  border-color: green; */
+  box-shadow: 
+    3px 0px 5px var(--focus-green),
+    0px 3px 5px var(--focus-green),
+    -3px 0px 5px var(--focus-green),
+    0px -3px 5px var(--focus-green);
+
 }
